@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Button Clicker</title>
+        <link rel="stylesheet" href="styleBC.css">
+        <script src = "BC.js"></script>
+    </head>
+    <body>
+        <div class = "header flex">
+            <div class = "Dojonary"><h1>Dojonary</h1></div>
+            <div class = "sb"><input type="text" name = "Search Bar" placeholder = "Search"></div>
+            <div><button class = "loginButton" onclick = "logOff(this)">Login</button></div>
+        </div>
+            <div class = "left flex">
+                <div class = "col-1">
+                    <div class = "card flex space-evenly">
+                        <div class = "leftOfCard">
+                            <h2>ninja</h2>
+                            <p>noun</p>
+                            <p>Plural: <span class = "plural">ninjas</span></p>
+                            <button class = "def1 likeButton" onclick = "alert('Ninja was liked')">13 likes</button>
+                        </div>
+                        <div class = "rightOfCard">
+                            <p>A practitioner skilled in the</p>
+                            <p><a href="#">Japanese</a> art of <a href="#">ninjitsu</a></p>
+                        </div>
+                    </div>
+                    <div class = "card2 flex space-evenly">
+                        <div class = "leftOfCard">
+                            <h2>ninja</h2>
+                            <p>noun</p>
+                            <p>Plural: <span class = "plural">ninjas</span></p>
+                            <button class = "def2 likeButton" onclick = "alert('Ninja was liked')">37 likes</button>
+                        </div>
+                        <div class = "rightOfCard">
+                            <p>A <a href="#">programmer</a> who breaks</p>
+                            <p>down problems with <a href="#">zen</a>-like</p>
+                            <p>focus</p>
+                        </div>
+                    </div>
+                </div>    
+                <div class = "right flex">    
+                <div class = "col-2">
+                    <div class = "card3 flex">
+                        <h2>Dojonary is</h2>
+                        <h2>defined by <span class = "YOU">YOU</span></h2>
+                        <button class = "defButton" onclick= "hide(this)">Add Definition</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
